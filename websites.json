@@ -1,0 +1,8 @@
+{
+	"Gmail":["https://mail.google.com/mail/u/0/#inbox", "https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico" ],
+	"Youtube":["https://www.youtube.com/feed/subscriptions", "https://duckduckgo.com/assets/icons/favicons/youtube.png" ],
+	"Twitter":["https://twitter.com/", "https://external-content.duckduckgo.com/ip3/twitter.com.ico" ],
+	"Sound Cloud":["https://soundcloud.com/", "https://duckduckgo.com/assets/icons/favicons/soundcloud.png" ],
+	"Github":["https://github.com/", "https://github.com/fluidicon.png" ]
+}
+
