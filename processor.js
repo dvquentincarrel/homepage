@@ -4,17 +4,8 @@ function gen_elem(name, link, img){
 }
 
 const base = document.getElementById("catalogue");
-// Absolutly lmaoing at this. stacked async functions, one of them
-// being for json parsing ? really ?
-fetch('data.json')
-	.then(
-		(value) => value.json())
-	.then(
-		(jsn) => {
-			for (elem in jsn){
-				base.insertAdjacentHTML("beforeend", gen_elem(elem, jsn[elem][0], jsn[elem][1]));
-			}
-		}
-	);
 
-
+// websites come from data.js, used as a json of sorts
+for(elem in websites){
+	base.insertAdjacentHTML("beforeend", gen_elem(elem, websites[elem][0], websites[elem][1]));
+}
